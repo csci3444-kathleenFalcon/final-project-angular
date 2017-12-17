@@ -1,3 +1,7 @@
+# Screenshots
+Before clicking showTeachers button - http://prntscr.com/hojmif
+After clicknig showTeachers button - http://prntscr.com/hojmp7, http://prntscr.com/hojmsh
+
 # FinalProjectAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.

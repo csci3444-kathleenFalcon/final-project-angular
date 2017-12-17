@@ -1,0 +1,17 @@
+<p>
+    Kathleen Falcon
+</p>
+
+<button (click)="toggleToDisplayTeachers()">Click to toggle toDisplay of teachers</button>
+<div *ngIf=isToDisplayTeachers>
+    <h3>Teachers</h3>
+    <div *ngFor="let teacher of teachers">
+        <p>------------------</p>
+        <p>ID: {{teacher.teacherId}}</p>
+        <p>First Name: {{teacher.name}}</p>
+        <p>Last Name: {{teacher.lastname}}</p>
+        <p>Title: {{teacher.title}}</p>
+        <p>Age: {{teacher.age}}</p>
+        <p>Full Time: {{teacher.isFullTime}}</p>
+    </div>
+</div>
