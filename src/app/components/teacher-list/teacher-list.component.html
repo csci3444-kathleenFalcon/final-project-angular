@@ -7,11 +7,13 @@
     <h3>Teachers</h3>
     <div *ngFor="let teacher of teachers">
         <p>------------------</p>
-        <p>ID: {{teacher.teacherId}}</p>
-        <p>First Name: {{teacher.name}}</p>
-        <p>Last Name: {{teacher.lastname}}</p>
-        <p>Title: {{teacher.title}}</p>
-        <p>Age: {{teacher.age}}</p>
-        <p>Full Time: {{teacher.isFullTime}}</p>
+        <ul>
+            <li>ID: {{teacher.teacherId}}</li>
+            <li>First Name: {{teacher.name}}</li>
+            <li>Last Name: {{teacher.lastname}}</li>
+            <li>Title: {{teacher.title}}</li>
+            <li>Age: {{teacher.age}}</li>
+            <li>Full Time: {{teacher.isFullTime}}</li>
+        </ul>
     </div>
 </div>
