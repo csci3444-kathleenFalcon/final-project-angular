@@ -1,5 +1,6 @@
 # Screenshots
 Before clicking showTeachers button - http://prntscr.com/hojmif
+
 After clicking showTeachers button - http://prntscr.com/hpc2lp, http://prntscr.com/hpc2ry
 
 # FinalProjectAngular
